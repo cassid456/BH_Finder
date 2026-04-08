@@ -1,0 +1,251 @@
+/* Boarding-site styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  background-image: url('images/image3.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100dvh;
+  padding: auto 2rem;
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5rem;
+    font-size: 1.2rem;
+    z-index: 1;
+    a {
+      color: #fff;
+    }
+    .menu {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      gap: 3rem;
+    }
+    .login {
+      background-color: #00a000;
+      color: #fff;
+      padding: 0.8rem;
+      border-radius: 10px;
+      font-size: 1rem;
+      margin: 0;
+      cursor: pointer;
+      transition: all .3s ease;
+    }
+    .login:hover {
+      transform: scale(1.04);
+    }
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+  }
+  h1 {
+    color: #fff;
+    font-size: 2.8rem;
+    z-index: 1;
+  }
+  h3 {
+    color: #e0e0e0;
+    font-size: 1.5rem;
+    z-index: 1;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+  }
+  .content {
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .search {
+    z-index: 1;
+  }
+}
+
+
+/* Search styles */
+.search{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding-top: 50px;
+  align-items: center;
+}
+.search button{
+  margin: 0;
+  font-size: 20px;
+  background-color: #00a000;
+  border-radius: 2px;
+  border: none;
+  letter-spacing: 2px;
+  margin-left: 0;
+}
+.search .Location{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  background-color: #ffffff;
+  color: #333;
+}
+.search .price{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.banner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100dvw;
+  height: 7rem;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  h2 {
+    position: absolute;
+    margin-bottom: 5rem;
+    color: #fff;
+    z-index: 3;
+  }
+  .overlay-b {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100dvw;
+    height: 7rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+  }
+  img {
+    width: 100%;
+    z-index: 0;
+  }
+}
+
+/* Featured section styles */
+div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+div h2{
+  margin-top: 100px;
+  margin-bottom: 50px;
+  letter-spacing: 3px;
+  font-size: 30px;
+  color: 111;
+}
+div .fl{
+  margin-top: 50px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+/* Featured listings cards */
+.fl .l1 p{
+  margin: 5px 0;
+}
+.fl .l2 p{
+  margin: 5px 0;
+}
+.fl .l3 p{  
+  margin: 5px 0;
+}
+/* End of featured listings */
+div a{
+  text-decoration: none;
+  color: #111;
+}
+div b{
+  color: black;
+  font-size: 18px;
+}
+div button{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 10px;
+  outline: none;
+  border: none;
+  background-color: #00a000;
+}
+div .l1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+div .l1 img{
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+div .l2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+div .l2 img{
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+div .l3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+div .l3 img{
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+/* Footer styles */
+footer {
+  padding: 3rem;
+  height: 15rem;
+  background-color: #333;
+}
