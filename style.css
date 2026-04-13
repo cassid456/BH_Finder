@@ -234,7 +234,7 @@ ul{
 }
 
 /*PHONE SCALING SIZE*/
-@media (max-width: 480px;) {
+@media (max-width: 600px) {
   .search{
     width: 200px;
     height: 180;
