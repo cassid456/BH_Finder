@@ -232,3 +232,16 @@ ul{
   top: 50%;
   transform: translateY(-50%);
 }
+
+/*PHONE SCALING SIZE*/
+@media (max-width: 480px;) {
+  .search{
+    width: 200px;
+    height: 180;
+    background-color: rgba(255,255,255,0.3);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
