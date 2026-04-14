@@ -380,7 +380,7 @@ ul{
   .search {
     display: flex;
     margin-top: 100px;
-    width: 60%;
+    width: 90%;
     max-width: 300px;
     height: 350px;
     border-radius: 20px;
@@ -405,7 +405,7 @@ ul{
   .search h4{
     width: 100%;
     text-align: center;
-    line-height: 20px;
+    line-height: 30px;
     display: block;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -415,34 +415,34 @@ ul{
   }
 
   .search h4 .Big{
-    font-size: 24px;
+    font-size: 30px;
     font-family: 'poppins', Sans-Serif;
   }
 
   .search h4 .mid{
-    font-size: 20px;
+    font-size: 24px;
   }
 
   .search h4 .small{
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .search input {
     width: 100%;   
-    max-width: 150px;
+    max-width: 190px;
   }
 
   .search button {
     border-radius: 6px;
     padding: 7px 0;
     width: 70%;
-    max-width: 150px;
+    max-width: 190px;
   }
 
   .icon{
     margin-top: 5px;
     width: 100%;
-    max-width: 150px;
+    max-width: 190px;
     margin-bottom: 10px;
   }
 
