@@ -323,7 +323,6 @@ ul{
     justify-content: flex-end;
     width: 30px;
     height: 30px;
-    margin-left: 100px;
     filter: invert(1) brightness(1);
     pointer-events: none;
   }
@@ -335,13 +334,13 @@ ul{
     width: 17px;
     height: 20px;
     margin-top: 7px;
-    margin-left: 90px;
+    margin-left: 30px;
     opacity: 0;
   }
 
   h5{
     display: flex;
-    margin-right: 115px;
+    margin-right: 5px;
     margin-left: 45px;
     margin-top: 27px;
     font-size: 1rem;
@@ -381,9 +380,9 @@ ul{
   .search {
     display: flex;
     margin-top: 100px;
-    width: 90%;
-    max-width: 380px;
-    height: 450px;
+    width: 60%;
+    max-width: 300px;
+    height: 350px;
     border-radius: 20px;
     background-color: rgba(255,255,255,0.3);
     backdrop-filter: blur(3px);
@@ -400,13 +399,13 @@ ul{
   }
 
   .gender .male{
-    margin-right: 50px;
+    margin-right: 10px;
   }
 
   .search h4{
     width: 100%;
     text-align: center;
-    line-height: 30px;
+    line-height: 20px;
     display: block;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -416,38 +415,38 @@ ul{
   }
 
   .search h4 .Big{
-    font-size: 40px;
+    font-size: 24px;
     font-family: 'poppins', Sans-Serif;
   }
 
   .search h4 .mid{
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .search h4 .small{
-    font-size: 26px;
+    font-size: 16px;
   }
 
   .search input {
     width: 100%;   
-    max-width: 280px;
+    max-width: 150px;
   }
 
   .search button {
     border-radius: 6px;
     padding: 7px 0;
     width: 70%;
-    max-width: 280px;
+    max-width: 150px;
   }
 
   .icon{
-    margin-top: 20px;
+    margin-top: 5px;
     width: 100%;
-    max-width: 280px;
+    max-width: 150px;
     margin-bottom: 10px;
   }
 
   .icon input{
     width: 100%;
   }
-    }
+}
