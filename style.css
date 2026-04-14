@@ -59,7 +59,7 @@ h5,h4,.header,.homelogo,.menulogo,.btn{
   display: flex;
   justify-content: space-evenly;
   align-content: center;
-  gap: 650px;
+  gap: 550px;
 }
 
 .hero nav .menu{
