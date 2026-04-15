@@ -503,6 +503,18 @@ ul {
     color: #333;
     letter-spacing: 2px;
   }
+  .fl {
+    display: flex;
+    overflow-x: auto;
+
+    /* hide scrollbar */
+    scrollbar-width: none;        /* Firefox */
+    -ms-overflow-style: none;     /* IE/Edge */
+  }
+
+  .fl::-webkit-scrollbar {
+    display: none;                /* Chrome, Safari */
+  }
 
   .picks {
     color: #16a34a;
