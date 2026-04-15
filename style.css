@@ -203,6 +203,19 @@ div .fl {
   background: none!important;
 }
 
+.fl {
+  display: flex;
+  overflow-x: auto;
+
+  /* hide scrollbar */
+  scrollbar-width: none;        /* Firefox */
+  -ms-overflow-style: none;     /* IE/Edge */
+}
+
+.fl::-webkit-scrollbar {
+  display: none;                /* Chrome, Safari */
+}
+
 div .fl li {
   display: flex;
   flex-direction: column;
